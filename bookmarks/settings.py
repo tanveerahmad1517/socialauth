@@ -27,12 +27,7 @@ SECRET_KEY = 'b4&ixp%mylp+$$6y&pdsq!z9v@68c8dynlqgk#t)9vm!%9-54q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'mysite.com',
-    'localhost',
-    '127.0.0.1',
-    'b9b7c2be.ngrok.io'
-]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -60,7 +55,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'bookmarks.urls'
@@ -192,7 +186,7 @@ ABSOLUTE_URL_OVERRIDES = {
 
 
 # Redis settings
-REDIS_HOST = 'b9b7c2be.ngrok.io'
-REDIS_PORT = 6379
-REDIS_DB = 0
+# REDIS_HOST = 'b9b7c2be.ngrok.io'
+# REDIS_PORT = 6379
+# REDIS_DB = 0
 django_heroku.settings(locals())
