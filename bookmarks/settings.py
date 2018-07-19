@@ -186,7 +186,7 @@ ABSOLUTE_URL_OVERRIDES = {
 
 
 # Redis settings
-# REDIS_HOST = 'b9b7c2be.ngrok.io'
-# REDIS_PORT = 6379
-# REDIS_DB = 0
+REDIS_HOST = 'b9b7c2be.ngrok.io'
+REDIS_PORT = 6379
+REDIS_DB = 0
 django_heroku.settings(locals())
