@@ -20,6 +20,6 @@ whitenoise = "*"
 redis = "*"
 django-crispy-forms = "*"
 request = "*"
-
+social-auth-core = "*"
 
 [dev-packages]
