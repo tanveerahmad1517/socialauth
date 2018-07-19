@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -194,3 +195,4 @@ ABSOLUTE_URL_OVERRIDES = {
 REDIS_HOST = 'b9b7c2be.ngrok.io'
 REDIS_PORT = 6379
 REDIS_DB = 0
+django_heroku.settings(locals())

@@ -1,0 +1,4 @@
+git add * //adds all changes
+git commit -m 'initial commit'
+git remote add origin https://github.com/<your username>/laughing_blog.git 
+git push -u origin master
