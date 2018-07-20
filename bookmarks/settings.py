@@ -169,9 +169,15 @@ AUTHENTICATION_BACKENDS = [
 SOCIAL_AUTH_FACEBOOK_KEY = '2900576786647608' # Facebook App ID
 SOCIAL_AUTH_FACEBOOK_SECRET = 'c422ec611d79650235bb0f6af8722538' # Facebook App Secret
 
+#Local
+# SOCIAL_AUTH_TWITTER_KEY = 'YFuQHZsXDOI1HZBgadG15OJ5G' # Twitter Consumer Key
+# SOCIAL_AUTH_TWITTER_SECRET = 'FWH8jwclE1y0tPtcQsgvjULGMZbOe73ElVea3PlDUCrmpdnik5' # Twitter Consumer Secret
 
-SOCIAL_AUTH_TWITTER_KEY = 'htRGZzqJTO2vXpO1dsqUaiIct' # Twitter Consumer Key
-SOCIAL_AUTH_TWITTER_SECRET = 'KgXqPjVnsiYTmgo2ZLIlWa0KyoWnbFEuYiJADC2u4hSIOyZPGS' # Twitter Consumer Secret
+#Live Heroku
+SOCIAL_AUTH_TWITTER_KEY = 'JhIu7vQDiyyD1RFts1h4AFTKi' # Twitter Consumer Key
+SOCIAL_AUTH_TWITTER_SECRET = 'sGDN6lfnOGMVLaBlrMDuVtJEwDEkVxo9MsLH4K7Pb6u9J2ZMUf' # Twitter Consumer Secret
+
+
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '999951840999-jv1oku163pgu4tbrhsiq7me1uv96i0du.apps.googleusercontent.com' # Google Consumer Key
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'vNdFJXtkImYZBWjJBBdIeiuJ' # Google Consumer Secret
