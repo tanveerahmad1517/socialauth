@@ -165,9 +165,10 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.google.GoogleOAuth2',
 ]
 
-# social auth settings
+# Local social auth settings
 SOCIAL_AUTH_FACEBOOK_KEY = '2900576786647608' # Facebook App ID
 SOCIAL_AUTH_FACEBOOK_SECRET = 'c422ec611d79650235bb0f6af8722538' # Facebook App Secret
+
 
 #Local
 # SOCIAL_AUTH_TWITTER_KEY = 'YFuQHZsXDOI1HZBgadG15OJ5G' # Twitter Consumer Key
